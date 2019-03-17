@@ -1,0 +1,95 @@
+#part1 {
+  text-align: left;
+  color: white;
+  background:#1BBC9B;
+  border: 2px solid;
+  border-radius: 8px;
+  height: 100px ;
+}
+
+#part2 {
+  text-align: left;
+  padding: 50px 25px 50px 25px;
+}
+
+#part3 {
+  background:#F4F5FA;
+  text-align: left;
+  padding: 25px 25px 25px 25px;
+}
+
+#fond {
+  background:white;
+  margin: 25px 300px 25px 300px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2)
+  padding: 50px 25px 50px 25px;
+}
+
+#b1 {
+  background:#1BBC9B;
+  border: 1px dotted #999;
+  border-radius: 2px;
+  color : white;
+  margin: 0px 5px 0px 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+#b2 {
+  background:#BCC4C7;
+  border: 1px dotted #999;
+  border-radius: 2px;
+  margin: 0px 5px 0px 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+body {
+  background-image: url("background.jpg");
+}
+
+#pseudo {
+  border: 2px solid #C6C7C9;
+  border-radius: 8px;
+  margin: 25px 25px 25px 25px;
+  height: 40px;
+  width: 95%;
+}
+
+#nom {
+  border: 2px solid #C6C7C9;
+  border-radius: 8px;
+  margin: 25px 25px 25px 25px;
+  height: 40px;
+  width: 95%;
+}
+
+#prenom {
+  border: 2px solid #C6C7C9;
+  border-radius: 8px;
+  margin: 25px 25px 25px 25px;
+  height: 40px;
+  width: 95%;
+}
+
+#age {
+  border: 2px solid #C6C7C9;
+  border-radius: 8px;
+  margin: 25px 25px 25px 25px;
+  height: 40px;
+  width: 95%;
+}
+
+#infos {
+  border: 2px solid #C6C7C9;
+  border-radius: 8px;
+  margin: 25px 25px 25px 25px;
+  height: 100px;
+  width: 95%;
+}
+
+a {
+  font-size:40px;
+}
+
+i {
+  margin : 25px 20px 10px 30px;
+}

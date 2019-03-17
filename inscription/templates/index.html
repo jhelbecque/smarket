@@ -1,0 +1,31 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="{% static 'css/index.css' %}"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<script src="{% static 'js/index.js' %}"></script>
+	</head>
+	<body>
+		<div id="fond">
+			<div id="part1">
+				<a><i class="fas fa-comments"></i>
+				Bienvenue chez Smarket !</a>
+			</div>				
+			<div id="part2">
+				<input type="text" name="pseudo" id="pseudo" placeholder="Pseudo"><br/>
+				<input type="text" name="nom" id="nom" placeholder="Nom"><br/>
+				<input type="text" name="prenom" id="prenom" placeholder="Prénom"><br/>
+				<input type="text" name="age" id="age" placeholder="Âge"><br/>
+				<textarea name="infos" id="infos" placeholder="Présentation personnelle"></textarea>
+			</div>
+			<div id="part3">
+				<button type="button" id="b1">Valider</button>
+				<button type="button" id="b2">Annuler</button>
+			</div>
+		</div>
+	</body>
+</html>
